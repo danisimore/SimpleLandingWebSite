@@ -1,2 +1,7 @@
 # SimpleLandingWebSite
-This is my study project from one of the courses i took.
+I made this landing Web site while taking one of the online courses.  It has applications such as: 
+· Slider; 
+· CRM; 
+· CMS;
+· Prices;
+· Telegram bot that notifies about the application left on the site.
