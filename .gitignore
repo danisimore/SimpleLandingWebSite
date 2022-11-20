@@ -85,6 +85,16 @@ target/
 __pycache__/
 local_settings.py
 
-.env
+
 db.sqlite3
 
+landingwebsite_root/media/
+landingwebsite_root!/media/.gitkeep
+
+/media/
+!/media/.gitkeep
+
+/landingwebsite_root/.env.dev
+/landingwebsite_root/.env.prod
+/landingwebsite_root/.env.prod.db
+/landingwebsite_root/.env.dev.db
