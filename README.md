@@ -10,3 +10,6 @@ Gunicorn has been added to requirements.txt; media and .env files has been added
 
 # Third commit (fix)
 The static directory has been moved to the root of the project; Added STATICFILES_DIRS list to settings.py for correct work of collectstatic command
+
+# Fourth commit
+Added settings to Dockerfile.prod to be able to upload media files when the project is deployed on the server
