@@ -1,10 +1,11 @@
 import requests
-from .models import TeleSettings
+
+from .services import get_settings
 
 
 def send_telegram(tg_name, tg_phone):
-    if TeleSettings.objects.get(pk=1):
-        settings = TeleSettings.objects.get(pk=1)
+    if get_settings():
+        settings = get_settings()
         token = str(settings.tg_token)
         chat_id = str(settings.tg_chat)
         text = str(settings.tg_message)
